@@ -17,8 +17,8 @@ public class Pokemon
 
     public void ReceiveAttack(Attack attack)
     {
-        baseDamage = attack.damage;
-        this.Life -= AttackEffectivity(attack, this.PType);
-        attack.damage = baseDamage;
+        float baseDamage = attack.Damage;
+        this.Life -= Type.AttackEffectivity(attack, this.PType);
+        attack.Damage = baseDamage;
     }
 }

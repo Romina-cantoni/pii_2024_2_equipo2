@@ -8,7 +8,7 @@ public class Player
     public Player(string name)
     {
         this.Name = name;
-        this.Pokemons = new List<Pokemon>;
+        this.Pokemons = new (List<Pokemon>);
     }
     
 }

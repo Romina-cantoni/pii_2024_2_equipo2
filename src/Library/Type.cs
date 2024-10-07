@@ -15,11 +15,11 @@ public class Type
         {
             if (type == Fire)
             {
-                attack.damage = attack.damage * 2;
+                attack.Damage = attack.Damage * 2;
             }
             if (type == Grass)
             {
-                attack.damage = attack.damage / 2;
+                attack.Damage = attack.Damage / 2;
             }
         }
         
@@ -27,11 +27,11 @@ public class Type
         {
             if (type == Grass)
             {
-                attack.damage = attack.damage * 2;
+                attack.Damage = attack.Damage * 2;
             }
             if (type == Water)
             {
-                attack.damage = attack.damage / 2;
+                attack.Damage = attack.Damage / 2;
             }
         }
         
@@ -39,14 +39,14 @@ public class Type
         {
             if (type == Water)
             {
-                attack.damage = attack.damage * 2;
+                attack.Damage = attack.Damage * 2;
             }
             if (type == Fire)
             {
-                attack.damage = attack.damage / 2;
+                attack.Damage = attack.Damage / 2;
             }
         }
 
-        return attack.damage;
+        return attack.Damage;
     }
 }
