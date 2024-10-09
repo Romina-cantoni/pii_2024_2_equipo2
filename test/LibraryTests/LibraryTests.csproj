@@ -25,4 +25,8 @@
     <ProjectReference Include="..\..\src\Library\Library.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="PokemonTest.cs" />
+  </ItemGroup>
+
 </Project>
